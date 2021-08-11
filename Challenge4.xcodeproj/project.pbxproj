@@ -13,6 +13,8 @@
 		DF27749226C418EC002FAFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF27749026C418EC002FAFEF /* Main.storyboard */; };
 		DF27749426C418EF002FAFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF27749326C418EF002FAFEF /* Assets.xcassets */; };
 		DF27749726C418EF002FAFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF27749526C418EF002FAFEF /* LaunchScreen.storyboard */; };
+		DF27749F26C41B24002FAFEF /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF27749E26C41B24002FAFEF /* Image.swift */; };
+		DF2774A126C42014002FAFEF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2774A026C42014002FAFEF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DF27749326C418EF002FAFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF27749626C418EF002FAFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF27749826C418EF002FAFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF27749E26C41B24002FAFEF /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		DF2774A026C42014002FAFEF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DF27749326C418EF002FAFEF /* Assets.xcassets */,
 				DF27749526C418EF002FAFEF /* LaunchScreen.storyboard */,
 				DF27749826C418EF002FAFEF /* Info.plist */,
+				DF27749E26C41B24002FAFEF /* Image.swift */,
+				DF2774A026C42014002FAFEF /* DetailViewController.swift */,
 			);
 			path = Challenge4;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF27748F26C418EC002FAFEF /* ViewController.swift in Sources */,
+				DF27749F26C41B24002FAFEF /* Image.swift in Sources */,
+				DF2774A126C42014002FAFEF /* DetailViewController.swift in Sources */,
 				DF27748B26C418EC002FAFEF /* AppDelegate.swift in Sources */,
 				DF27748D26C418EC002FAFEF /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lucaHummel.Challenge4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lucaHummel.Challenge4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
